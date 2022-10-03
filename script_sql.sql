@@ -2,7 +2,7 @@ create database ristorazione;
 
 use ristorazione;
 
-create table ristorazione.ristoranti(
+create table ristoranti(
 id	int auto_increment,
 nome varchar(100) not null unique,
 indirizzo varchar(100) not null unique,
@@ -12,7 +12,7 @@ provatoNonProvato varchar(100),
 primary key (id)
 );
 
-INSERT INTO ristoranti (nome, indirizzo, particolarita,consigli_vari,provato_non_provato)
+INSERT INTO ristoranti (nome, indirizzo, particolarita,consigli_vari,provatoNonProvato)
 VALUES ( 'prova2', 'prova2', 'prova2', 'prova2', 'prova2');
 
 select * from ristoranti;
