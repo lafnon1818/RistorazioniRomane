@@ -9,8 +9,4 @@ public class RistorazioniRomaneApplication {
     public static void main(String[] args) {
         SpringApplication.run(RistorazioniRomaneApplication.class, args);
     }
-
-    //aaaaaaaaaaaaaaaaaaaa
-    //bbbbbbbbbbbbbbbb
-    //asdsdadsasd
 }
