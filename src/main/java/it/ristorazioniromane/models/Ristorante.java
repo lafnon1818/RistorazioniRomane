@@ -22,9 +22,9 @@ public class Ristorante {
     private String indirizzo;
     @Column
     private String particolarita;
-    @Column
+    @Column(name = "consigli_vari")
     private String consigliVari;
-    @Column
+    @Column(name = "provato_non_provato")
     private String provatoNonProvato;
 
 }
